@@ -81,18 +81,16 @@ Baseline: 0.666
 4 models achieved a mean CV score higher than baseline, but even this was only by 0.001.
 Some training scores were worse than baseline too and most weren’t very high. Precision & recall scores were also investigated, but these were generally no better than baseline. 
 
-The hghest performing of these 19 models was Logistic Regression. 
+The highest performing of these 19 models was Logistic Regression. 
 
 # Troubleshooting
 The fact that none of my models performed very well lended itself to some troubleshooting. For all of these I did logistic regression and found mean cv.
 
 1. Training set indexes - compare indexes of train_x to train_y (these were identical)
 
-2. Chi-square test on features 
-This was done to check how well the selected features would translate to modelling - all were either exactly 0 or very close to 0 (see left) indicating that they could all be used for modelling.
+2. Chi-square test on features: this was done to check how well the selected features would translate to modelling - all were either exactly 0 or very close to 0 (see left) indicating that they could all be used for modelling.
 
-3. Random OverSample 
-This gave mean cv 0.6678035594917955; no significant improvement. This should have improved recall, however recall performed worse than baseline at 0.6654496541122213 
+3. Random OverSample: this gave mean cv 0.6678035594917955; no significant improvement. This should have improved recall, however recall performed worse than baseline at 0.6654496541122213 
 
 4. MinMax Scaling rather than Standard Scaling (mean cv 0.6661222183065547)
 
@@ -105,8 +103,7 @@ District: 0.666314318156921
 
 7. Changing class_weight parameter to ‘balanced'
 
-8. Tuning 
-Tuning by changing penalties improved this marginally but not significantly.The same applied for other models such as KNN.
+8. Tuning by changing penalties improved this marginally but not significantly.The same applied for other models such as KNN.
 
 # Results
 After trying all of these things with no changes I came to the conclusion that these features are not discriminative enough on their own to give more accurate predictions. These alone provide low predictability despite EDA indicating that modelling should be successful.
