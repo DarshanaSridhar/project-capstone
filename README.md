@@ -106,10 +106,6 @@ District: 0.666314318156921
 8. Tuning by changing penalties improved this marginally but not significantly.The same applied for other models such as KNN.
 
 # Results
-After trying all of these things with no changes I came to the conclusion that these features are not discriminative enough on their own to give more accurate predictions. These alone provide low predictability despite EDA indicating that modelling should be successful.
-
-Different features may be required in order to provide a more accurate model.
-
 Best model achieved through gridsearching logistic regression - this is the best score I managed to get (improvement of 0.002). 
 
 Mean CV Score 0.6682836514898551
@@ -141,4 +137,6 @@ It would be interesting to look at less physical features such as plea type, any
 6. Survival Analysis; how long until a criminal reoffends
 
 # Conclusion
-Even though my model didn’t work as well as hoped, the process was incredibly valuable, especially the troubleshooting I did at the end. As a learning process, pull everything I have learned recently together very interesting.
+These features are not discriminative enough on their own to give more accurate predictions. These alone provide low predictability despite EDA indicating that modelling should be successful.
+
+Different features may be required in order to provide a more accurate model.
