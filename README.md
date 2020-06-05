@@ -6,6 +6,10 @@ Recidivism is defined as the act of a person repeating an undesirable behavior a
 In the context of criminal justice, it is used to refer to the percentage of former prisoners who have been rearrested.
 It can be used as an indicator on whether rehabilitation strategies are reducing offender relapse into criminal behavior - this is useful when evaluating the efficacy of prison rehabilitation.
 
+
+Link to Tableau Public for visuals: 
+https://public.tableau.com/profile/darshana.sridhar#!/
+
 # Problem Statement
 After 3 years of rehabilitation, can we predict whether an individual offender will go on to reoffend, break the terms of their parole, or never offend again? 
 
@@ -71,9 +75,6 @@ Some assumptions and risks I made in cleaning:
 2. Dropped any column that were dependent on target variable (approx 4 columns)
 3. Dummified all categorical variables
 4. Imputing assumptions (e.g. age; given as range but chose to take the average of these ranges)
-
-Link to Tableau Public for visuals: 
-https://public.tableau.com/profile/darshana.sridhar#!/
 
 # Modelling
 Baseline: 0.666
