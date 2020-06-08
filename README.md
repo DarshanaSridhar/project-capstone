@@ -8,7 +8,10 @@ It can be used as an indicator on whether rehabilitation strategies are reducing
 
 
 Link to Tableau Public for visuals: 
-https://public.tableau.com/profile/darshana.sridhar#!/
+public.tableau.com/profile/darshana.sridhar#!/
+
+Link to final presentation:
+docs.google.com/presentation/d/1-u1afJpjBhNJoZYmV_sLXbRQs2PLP7oeGhY7yFA335I/edit?usp=sharing
 
 # Problem Statement
 After 3 years of rehabilitation, can we predict whether an individual offender will go on to reoffend, break the terms of their parole, or never offend again? 
